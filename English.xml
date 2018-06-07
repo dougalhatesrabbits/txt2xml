@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language lang="English" author="Atomix Productions" version="7.0">
+
+  <Errors>
+    <Explorer>Error in the Windows Explorer</Explorer>
+    <Desktop>Impossible to find the desktop</Desktop>
+    <GDI>Error in the video driver</GDI>
+    <Sound>Error in the sound driver</Sound>
+    <DirectSound>Error in the sound driver (DirectX/WDM): Your soundcard is probably not connected, or the settings are incorrect.</DirectSound>
+    <DirectSoundUsed>The sound card is already used by another application</DirectSoundUsed>
+    <DirectSoundMemory>Error in the sound card driver: not enough memory</DirectSoundMemory>
+    <CoreAudio>Error in the sound driver of CoreAudio: Your soundcard is probably not connected, or the settings are incorrect.</CoreAudio>
+    <FixDB>The database on drive %c: is corrupted.\nGo to Config/Browser and click Fix to fix the %c: database.</FixDB>
+    <Skin>Invalid skin file (error line %i in the xml)</Skin>
+    <WDMError>Impossible to init the WDM sound driver. Please check that you have a proper WDM (and not VxD) driver installed, with quad-output functions\n(Please note that Win95 and Win98osr1 do not support WDM drivers)</WDMError>
+    <QueryClose>The music is still playing!\nAre you sure you want to quit VirtualDJ?</QueryClose>
+    <Security>A song is playing on this deck.\nAre you sure you want to stop it?</Security>
+    <DemoLimit2>This is only a trial version of VirtualDJ.\nPlease visit our website http://www.virtualdj.com/ to order the full version</DemoLimit2>
+    <SerialError>Protection error %i. Please contact us on http://www.virtualdj.com/contact/ </SerialError>
+    <InvalidSerial>Invalid serial number</InvalidSerial>
+    <BadCDRip>The CD is unreadable.\nMaybe you should try to clean it.</BadCDRip>
+    <Controller>The controller has not been detected.\nPlease plug in the controller and start VirtualDJ again.</Controller>
+    <Video>Camera initialization failed!</Video>
+    <VideoError>Error in the video driver</VideoError>
+    <AsioError>Error in the ASIO sound driver: Your soundcard is probably not connected, or the settings are incorrect.</AsioError>
+    <AsioChanError>Error in the ASIO sound driver: Not enough channels</AsioChanError>
+    <RewireError>Error in the ReWire connection. Make sure your ReWire source is open and running.</RewireError>
+    <TimecodeSignalError>No timecode signal found.\nPlease play a timecoded vinyl on the turntable and try again.\nIf it's still not working, check your cables, and the volumes of your soundcard.</TimecodeSignalError>
+    <Direct3DError>Invalid version of DirectX.\nPlease install at least DirectX v9.0c.\nYou can download it for free from Microsoft website:\nhttp://www.microsoft.com/directx</Direct3DError>
+    <DJCDemoLimit>The timecode support is a feature only available in the 'Professional' version of VirtualDJ.\nThe 'DJConsole Edition' version provided with your DJConsole will only let you test it for 5 minutes.\n\nIf you want to upgrade to the Pro version, please visit our website:\nhttp://www.virtualdj.com/</DJCDemoLimit>
+    <VideoLimit>Sorry, full-screen video support is only available in the professional version of VirtualDJ.\n\nIf you want to upgrade to the Pro version, please visit our website:\nhttp://www.virtualdj.com/</VideoLimit>
+    <DRMRecord>One of the file you are currently playing is protected with a DRM protection.\nThus, it is forbidden to record or burn it.</DRMRecord>
+    <SkinSize>Warning!\nThe skin you are trying to use has a higher resolution than your screen</SkinSize>
+    <ShortcutExists>This shortcut is already assigned.\n\nClick Yes to add the new shortcut and build up macros.\nClick No to replace the previous shortcut.</ShortcutExists>
+    <DBFull>The drive %c: is full.</DBFull>
+    <ThreadBlocked>Warning!\nThe system was unresponsive (%s).\nVirtualDJ has performed a recovery, and should now work ok again.\nStill, you might want to restart the software next time it's convenient for you to do so.</ThreadBlocked>
+	  <NetSearchCacheUnavailable>This feature is not available on this computer.</NetSearchCacheUnavailable>
+	  <NetSearchCacheError>This cache file has expired. Please connect to the Internet to revalidate it.</NetSearchCacheError>
+	  <NetSearchBadDate>The date on your computer is incorrectly set. Please fix it before using NetSearch</NetSearchBadDate>
+	  <HerculesDrivers>You have old Hercules drivers.\nYou will need to download and install the latest drivers to use your Hercules unit.\nDo you want to download it now?</HerculesDrivers>
+    <MemoryError>Decompressing this file in memory would require %iMb of contiguous memory.\nYour system has only a total of %iMb available free segments (out of the %iMb), and they are too fragmented to hold a contiguous buffer.\n\nTherefore, the song will be loaded on-the-fly from the drive (and the full waveform preview will not be available).</MemoryError>
+    <AdvancedConfig>Invalid Advanced Audio Configuration</AdvancedConfig>
+    <CloseRewire>You must close all ReWire slave applications before closing VirtualDJ.\nPlease close the ReWire slave applications now, then press OK.</CloseRewire>
+    <BadiTunesLocation>There is not iTunes library at this location</BadiTunesLocation>
+  </Errors>
+
+  
+
+</language>

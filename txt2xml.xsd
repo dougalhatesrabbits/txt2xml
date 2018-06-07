@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Users" type="UsersType"/>
+  <xs:complexType name="UsersType">
+    <xs:sequence>
+      <xs:element type="userType" name="user"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="language"/>
+    <xs:attribute type="xs:string" name="version"/>
+  </xs:complexType>
+  <xs:complexType name="userType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="uid"/>
+      <xs:element type="xs:string" name="FirstName"/>
+      <xs:element type="xs:string" name="LastName"/>
+      <xs:element type="xs:string" name="Email"/>
+      <xs:element type="xs:string" name="state"/>
+      <xs:element type="xs:string" name="location"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
